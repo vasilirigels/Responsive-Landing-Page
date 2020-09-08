@@ -1,0 +1,767 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+}
+.navbar-expand-md .navbar-collapse {
+
+padding-left: 470px;
+line-height: 24.57px;
+color: #6b95e0;
+
+}
+li {
+    display:inline-block;
+    padding: 10px;
+ }
+.navbar{
+    padding-top: 40px !important;
+}
+.navi{
+
+    width: 100%;
+    height: 940px;
+    background-image: linear-gradient(to bottom, #123075 0%, #092056 100%);
+}
+
+.navbar-brand{
+    width: 106px;
+
+color: #ffffff;
+font-family: "Nexa Bold";
+font-size: 24px;
+font-weight: 400;
+text-transform: uppercase;
+/* Text style for "AGENCY" */
+letter-spacing: 1.03px;
+padding-left: 305px;
+}
+
+.round{
+width: 10px;
+height: 10px;
+background-image: linear-gradient(-135deg, #fa2b56 0%, #f91c3d 100%) !important;
+border-radius: 15px;
+position: relative;
+margin-left: 95px;
+}
+.p-header{
+    font-size: 18px;
+    color: #6b95e0;
+}
+.h-header{
+    font-size: 48px;
+    font-weight: 700;
+}
+.header{
+    position: relative;
+    margin-top: 210px;
+    left: 30px;
+    color: #fff ;
+    
+    
+}
+ .btn-header{
+    position: relative;
+     padding-top: 40px;
+     left: 30px;
+     font-size: 40px;
+ }
+
+ .italic-header{
+    font-family: "Roboto Light";
+    font-weight: 100 !important;
+    letter-spacing: -0.58px;
+    padding-top: 15px;
+ }
+ .btn-transparent{
+     border: solid 1px  #6b95e0 !important;
+     color: #6b95e0 !important;
+
+ }
+ .btn-transparent:hover{
+    border: solid 1px  #fff;
+     color: #fff;
+ }
+
+.btn-transparent, .btn-danger{
+    font-size: 18px;
+    width: auto;
+    font-weight: 500;
+    height: 50px;
+    margin: 5px;
+}
+.photo{
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.lay1{
+    position: relative;
+    top: 173px;
+    left: 80px;
+    z-index: 1;
+}
+.lay2{
+    position: relative;
+    bottom: 120px;
+    
+    
+}
+.lay3{
+    position: relative;
+    top: 50px;
+    left: 389px;
+}
+ .center-lay{
+     position: relative;
+    width: 90%;
+    height: 70%;
+    left: 100px;
+ }
+
+ @media screen and (max-width: 1024px){
+    .navbar-expand-md .navbar-collapse{
+        padding-left: 120px;
+    }
+    .navbar-brand {
+        padding-left: 60px !important;
+    }
+    .round{
+        
+    margin-left: 70px;
+    }
+    .center-lay {
+        width: 83%;
+    }
+    .lay3{
+        left: 329px;
+    }
+  
+ }
+
+ @media screen and (max-width: 787px){
+    .navbar-dark .navbar-brand{
+        padding: 0;
+        position: relative;
+    left: 14px;
+    }
+    .round{
+      display: none;
+    }
+    .navbar-expand-md .navbar-collapse{
+        padding: 0;
+    }
+    li{
+        padding: 0;
+    }
+    .navbar-dark .navbar-toggler{
+        outline: none;
+    }
+    .h-header {
+        font-size: 42px;}
+    .header {
+      
+        margin-top: 60px;
+        left: 14px;
+       
+    }
+    .btn-header {
+       
+        left: 25px;
+        padding-bottom: 70px;
+    }
+
+    .btn-transparent, .btn-danger{
+        font-size: 16px;
+        width: auto;
+        height: 39px;
+    }
+    .photo, .lay3{
+        display: none;
+    }
+    .navi{
+        height: 100%;
+    }
+ }
+
+
+ /* Section 2 */
+ .section2{
+    background: #f7f8fb;
+ }
+
+ .h-sec2{
+    
+     padding-top: 80px;
+     padding-bottom: 50px;
+     text-align: center;
+   
+
+color: #0f358e;
+font-family: Roboto;
+font-size: 48px;
+font-weight: 300;
+
+/* Text style for "What Can W" */
+letter-spacing: -0.58px;
+text-align: center !important;
+ }
+
+.text-center{
+    border: none !important;
+    background: #f7f8fb !important;
+    padding-bottom: 25px;
+ }
+ .text-center:hover{
+     background: #fff !important;
+ }
+
+ .img-sec2{
+     padding: 30px;
+ }
+ .card-text{
+  
+    color: #0f358e;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+ }
+
+ .p-text{
+    
+    font-size: 14px;
+    padding-top: 10px;
+  
+ }
+ .btn-card{
+    margin: 22px;
+    height: auto;
+    box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.4);
+    z-index: 2;
+    
+    
+ }
+
+ @media screen and (max-width: 787px){
+    .btn-card{
+        width: 150px;
+    }
+ }
+
+ .h-sec2{
+     font-size: 42px;
+ }
+/* Section 3*/
+
+.charts{
+    background-color: #fff;
+}
+.charts1{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #fff !important;
+}
+
+.progress-xs{
+    height: 3px;
+     
+}
+.font-weight-bold{
+    text-align: right;
+}
+
+
+
+.h-sec3{
+
+    height: 128px;
+color: #1a47b0;
+font-family: Roboto;
+font-size: 38px;
+font-weight: 400;
+/* Text style for "We’r a dyn" */
+font-family: "Roboto - Bold";
+font-weight: 700;
+letter-spacing: -0.61px;
+/* Text style for "team of cr" */
+font-family: "Roboto - Regular";
+font-weight: 400;
+letter-spacing: -0.61px;
+padding-bottom: 40px;
+
+}
+.pr-group{
+    padding-top: 40px;
+}
+.progress-group{
+    padding-top: 10px;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+.img-sec3{
+    width: 100%;
+    height: 100%;
+}
+.button{
+    margin-top: 80px;
+    box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.4);
+    
+}
+.p-card{
+    margin-bottom: 0rem;
+    position: absolute;
+ 
+}
+
+
+@media screen and (max-width: 787px){
+    .h-sec3{
+        font-size: 30px;
+        padding-top: 25px;
+    }
+ }
+
+
+ /* Section 4*/
+
+ .banner{
+    
+     
+     background-color: #223D7B;
+ }
+
+ .icon{
+     color: #fff;
+     padding-top: 90px;
+     padding-bottom: 80px;
+     position: relative;
+   
+    left: 85px;
+    
+
+
+ }
+ .icon p{
+     margin-bottom: 0;
+ }
+ .img-banner{
+     padding-bottom: 20px;
+ }
+
+ @media screen and (max-width: 787px){
+    .icon {
+        
+        padding-bottom: 0; 
+        position: relative;
+        left: 128px;
+    }
+    .img-bottom1{
+        padding-bottom: 80px;
+    }
+ }
+ 
+
+ /* Grid Gallery */
+
+
+
+  .item{
+      width: 100%;
+      height: 300px;
+  }
+
+  .section.portfolio .filters-content .item .p-inner{
+    padding: 16px 30px;
+
+ 
+    border: none !important;
+  }
+  
+  
+ .section {
+    padding: 30px 0;
+    color: #333;
+  }
+  .section .top-side {
+    text-align: center;
+  }
+  .section .top-side .title {
+    font-weight: 500;
+    font-size: 15px;
+    display: inline-block;
+  }
+  .grid2{
+    position: relative;
+    top: 40px;
+}
+  .section .top-side .title:after {
+    content: "";
+    display: block;
+    width: 50%;
+    border-bottom: 1px solid #494949;
+    margin: 8px auto;
+  }
+  .section .top-side h2 {
+    font-weight: 700;
+  }
+  .section.portfolio .filters {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .section.portfolio .filters ul {
+    padding: 0;
+  }
+  .section.portfolio .filters ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 30px;
+    cursor: pointer;
+    position: relative;
+  }
+  .section.portfolio .filters ul li:after {
+    content: "";
+    display: block;
+    width: calc(0% - 60px);
+    position: absolute;
+    height: 2px;
+    background: #333;
+    transition: width 350ms ease-out;
+  }
+  .section.portfolio .filters ul li:hover:after {
+    width: calc(100% - 60px);
+    transition: width 350ms ease-out;
+  }
+  .section.portfolio .filters ul li.active:after {
+    width: calc(100% - 60px);
+  }
+  .section.portfolio .filters-content {
+    margin-top: 50px;
+  }
+  .section.portfolio .filters-content .show {
+    opacity: 1;
+    visibility: visible;
+    transition: all 350ms;
+  }
+  .section.portfolio .filters-content .hide {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 350ms;
+  }
+  .section.portfolio .filters-content .item {
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 91px;
+  }
+  .section.portfolio .filters-content .item .p-inner {
+    padding: 20px 30px;
+  
+  }
+  .section.portfolio .filters-content .item .p-inner:hover {
+   background: #fff;
+   box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.3);
+
+  
+  }
+ 
+  .section.portfolio .filters-content .item .p-inner h5 {
+    font-size: 15px;
+    color: #1a47b0;
+  }
+  .section.portfolio .filters-content .item .p-inner .cat {
+    font-size: 13px;
+  }
+  .section.portfolio .filters-content .item img {
+      width: 100%;
+    }
+
+    @media screen and (max-width: 787px){
+        .section.portfolio .filters-content .item img {
+            width: auto;
+          }  
+    }
+
+
+    /* Why us */
+
+    .why-us{
+        background: #fff;
+    }
+
+    .img-why{
+       width: 100%;
+       height: 100%;
+      
+    }
+    .img-us, .text-why{
+        margin-top: 80px;
+      margin-bottom: 80px;
+    }
+    .text-why h3{
+        color: #0f358e;
+        font-weight: 700;
+        font-family: 'Roboto';
+        font-size: 48px;
+        padding-bottom: 8px;
+        
+    }
+
+    
+    @media screen and (max-width: 787px){
+        .text-why{
+            margin: 20px;
+        }
+        .img-us{
+            margin-top: 60px;
+            margin-bottom: 40px;
+        }
+        .why-us .btn-danger{
+            margin-top: 30px;
+        }
+    }
+
+       /* Team */
+       .card{
+           border: none !important;
+        
+       }
+       .card-body{
+           margin: 0;
+         
+       }
+       .card-body:hover{
+        box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.3);
+       }
+       .team .col-md-3 {
+        max-width: 23%;
+        margin: 9px;
+       }
+
+       .team{
+        background-color: #f7f8fb; 
+        text-align: center;
+        padding-bottom: 80px;
+        padding-top: 80px;
+       }
+       .team p { 
+           text-align: center;
+        color: #595f6f;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+        /* Text style for "Our team o" */
+        letter-spacing: -0.3px;
+       }
+       .team img{
+       padding-top: 20px;
+       padding-bottom: 20px;
+       height: 100%;
+       width: 100%;
+       }
+       .team h5{
+        color: #1a47b0;
+        font-family: 'Roboto';
+
+        font-size: 18px;
+        font-weight: 800;
+        /* Text style for "Laura Poul" */
+        letter-spacing: -0.31px;
+        padding-top: 20px;
+       }
+       .team p{
+        color: #595f6f;
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        padding-bottom: 40px;
+        font-size: 20px;
+       }
+       
+       i{
+           margin: 5px;
+       }
+       .team .h-sec2{
+           padding-bottom: 0;
+       }
+       @media screen and (max-width: 787px){
+        .team .col-md-3{
+            max-width: 100% !important;
+            margin: 9px;
+        }
+       }
+
+       /* Carousel */
+      .carousel{
+          background: #fff;
+          padding: 40px;
+      }
+
+ 
+
+       
+     .carousel-item{
+         text-align: center;
+    
+
+color: #595f6f;
+font-family: 'Roboto';
+font-size: 14px;
+line-height: 24px;
+
+letter-spacing: -0.24px;
+     }
+     .carousel-item h4 {
+        color: #0f358e;
+        font-size: 20px;
+     }
+
+            /* Pricing Plans */
+
+            .pricing{
+            background: #f7f8fb; ;
+            padding-bottom: 90px;
+            padding-top: 40px;
+            }
+
+            .pricing .card-body h3 {
+                color: #0f358e !important;
+font-family: 'Roboto';
+font-size: 58px;
+font-weight: 700;
+line-height: 58px;
+padding-top: 60px;
+            }
+            .pricing .card-body p{
+                color: #0f358e !important;
+             text-align: left;
+            padding-left: 30px;
+            }
+
+            .pricing .card-body i{
+                color: red ;
+                padding-right: 15px;
+                padding-top: 7px;
+               
+            }
+
+            .pricing .card-body div{
+                display: flex;
+                justify-content: space-between;
+            }
+           
+            .span{
+              
+                color: #0f358e !important;
+            }
+             .list1{
+                 padding-top: 35px;
+             }
+             .list2{
+                padding-bottom: 35px;
+            }
+
+            .pricing .btn{
+                background-image: linear-gradient(to bottom, #123075 0%, #092056 100%);
+                color: #fff;
+            }
+
+            .pricing .btn:hover{
+                background: red;
+                color: #fff;
+            }
+                 .pricing .card-body{
+                    border: 1px solid #dddfe7;
+                 }
+            .pricing .card-body:hover {
+
+                box-shadow: 40px 40px 80px rgba(0, 0, 0, 0.1);
+                border: none;
+              }
+
+              
+             /* Footer*/
+              .footer{
+                background-color: #223D7B;
+                color: #fff;
+              }
+
+
+
+            .footer-brand{
+                width: 106px;
+                height: 17px;
+                color: #ffffff;
+                font-family: "Nexa Bold";
+                font-size: 24px;
+                font-weight: 400;
+                text-transform: uppercase;
+                text-decoration: none;
+                padding-bottom: 40px;
+
+            }
+             .round1{
+                width: 10px;
+height: 10px;
+background-image: linear-gradient(-135deg, #fa2b56 0%, #f91c3d 100%) !important;
+border-radius: 15px;
+position: relative;
+margin-left: 40px;
+
+             }
+
+             .footer-left{
+                 padding-top: 80px;
+                 padding-bottom: 40px;
+             }
+             .footer h6{
+                padding-top: 30px; 
+                /* Style for "Design Web" */
+width: 256px;
+
+color: #ffffff;
+font-family: 'Roboto';
+font-size: 18px;
+font-weight: 400;
+/* Text style for "Design Web" */
+letter-spacing: -0.31px;
+             }
+
+             .footer p{
+                color: #709be7;
+                width: 339px;
+height: 32px;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+             }
+
+             .footer i{
+                padding-top: 30px;
+               color: #709be7;
+               
+             }
+
+             .footer-right{
+                padding-top: 80px;
+                padding-bottom: 60px;
+            }
+
+            .map{
+                width:380px;
+                 height:220px;
+            }
+
+
+
+            @media screen and (max-width: 787px){
+                .map{
+                    width: 100%;
+                     height: auto;
+                }
+
+                .footer-right{
+                    padding-top: 10px;
+                    padding-bottom: 40px;
+                }
+            }
